@@ -152,7 +152,7 @@ def main():
     
     print("Starting link-following scrape from: https://bulletin.brown.edu/")
     scraper.scrape_site(max_pages=100, max_depth=2)
-    df = scraper.save_results()
+    scraper.save_results()
 
 if __name__ == "__main__":
     main()

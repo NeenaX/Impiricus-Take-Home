@@ -1,0 +1,6 @@
+venv/
+backend/__pycache__/
+backend/rag/__pycache__/
+backend/logs/
+*.log
+frontend/node_modules/

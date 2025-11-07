@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+*.egg-info/
+*.egg
+
+notebooks/
+logs/
+*.log
+
+.git/
+.gitignore
+
