@@ -138,7 +138,7 @@ async def startup_event():
         logger.error(f"Error during startup: {e}")
         logger.error(f"Current working directory: {os.getcwd()}")
         logger.error(f"Project root: {PROJECT_ROOT}")
-        # Don't raise to allow the app to start with degraded functionality
+        # Allow the app to start with degraded functionality
         logger.warning("Application starting with degraded functionality")
 
 # Health check endpoint
